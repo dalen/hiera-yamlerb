@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
-  s.version = '0.0.1'
-  b.name = "hiera-yamlerb"
+  s.version = '0.0.2'
+  s.name = "hiera-yamlerb"
   s.email = "erik.gustav.dalen@gmail.com"
-  s.authors = "Erik Dalen"
+  s.authors = ["Erik Dalen", "Jake Champlin", "Ben Potts"]
   s.summary = "A YAML backend with ERB templating for Hiera."
   s.description = "Allows YAML hiera files to be templated using ERB."
   s.has_rdoc = false
-  s.homepage = "http://github.com/dalen/hiera-yamlerb"
+  s.homepage = "http://github.com/minted/hiera-yamlerb"
   s.license = "Apache 2.0"
   s.files = Dir["lib/**/*.rb"]
   s.files += ["LICENSE"]
